@@ -1,3 +1,16 @@
 ﻿{
-  "addServer.add": "毕"
+
+  "language.name": "育文",
+  "language.region": "華夏",
+  "language.code": "zh_hant",
+  "narrator.button.accessibility": "協器",
+  "narrator.button.language": "文",
+  "narrator.button.difficulty_lock": "難鑰",
+  "narrator.button.difficulty_lock.unlocked": "未鑰",
+  "narrator.button.difficulty_lock.locked": "既鑰",
+  "narrator.screen.title": "標屏",
+
+
+  //不建议按照繁中的顺序，alphabetical排序不人性化
+  "addServer.add": "畢"
 }
