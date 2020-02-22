@@ -28,3 +28,4 @@ jobs:
           files: |
             lzh.zip
             lzh_leaveblank.zip
+            lzh_compatible.zip
