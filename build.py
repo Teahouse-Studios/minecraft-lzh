@@ -16,7 +16,7 @@ def main():
     print("Build succeeded!")
 
 def build(args):
-    with open("assets/minecraft/lang/zh_lzh.json", 'r', encoding='utf8') as f:
+    with open("assets/minecraft/lang/lzh.json", 'r', encoding='utf8') as f:
         lang_data = json.load(f)
     pack_name = get_packname(args)
     # all builds have these files
@@ -26,7 +26,7 @@ def build(args):
         # normal build
         # delete untranslated strings, by chyx
         lang_data = {k:v for k,v in lang_data.items() if v}
-        pack.writestr("assets/minecraft/lang/zh_lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
+        pack.writestr("assets/minecraft/lang/lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
         pack.write("pack.mcmeta")
     elif args['type'] == 'compatible':
         # compatible build
@@ -39,7 +39,7 @@ def build(args):
         del metadata['language']
         pack.writestr("pack.mcmeta", json.dumps(metadata, indent=4, ensure_ascii=False))
     elif args['type'] == 'leaveblank':
-        pack.writestr("assets/minecraft/lang/zh_lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
+        pack.writestr("assets/minecraft/lang/lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
         pack.write("pack.mcmeta")
     pack.close()
 
