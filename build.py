@@ -30,6 +30,8 @@ def build(args):
         pack.write("pack.mcmeta")
     elif args['type'] == 'compatible':
         # compatible build
+        # delete untranslated strings, by chyx
+        lang_data = {k:v for k,v in lang_data.items() if v}
         pack.writestr("assets/minecraft/lang/zh_tw.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
         # processing pack.mcmeta
         with open("pack.mcmeta", 'r', encoding='utf8') as meta:
