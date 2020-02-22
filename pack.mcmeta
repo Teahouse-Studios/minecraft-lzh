@@ -4,7 +4,7 @@
         "description": "Minecraft文言文语言包\n§3Pre-release v0.1.0"
     },
     "language": {
-        "lzh": {
+        "zh_lzh": {
             "name": "文言",
             "region": "華夏",
             "bidirectional": "false"
