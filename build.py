@@ -7,7 +7,7 @@ import os
 
 def main():
     parser = argparse.ArgumentParser(description="Automatic build resourcepacks")
-    parser.add_argument('type', default='normal', help="Build type. Should be 'all', 'normal' or 'leaveblank'.")
+    parser.add_argument('type', default='normal', help="Build type. Should be 'all', 'normal', 'leaveblank' or 'compatible'.")
     args = vars(parser.parse_args())
     if args['type'] == 'all':
         build_all()
@@ -22,12 +22,20 @@ def build(args):
     # all builds have these files
     pack = zipfile.ZipFile(pack_name, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=5)
     pack.write("LICENSE")
-    pack.write("pack.mcmeta")
     if args['type'] == 'normal':
         # normal build
         # delete untranslated strings, by chyx
         lang_data = {k:v for k,v in lang_data.items() if v}
         pack.writestr("assets/minecraft/lang/lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
+        pack.write("pack.mcmeta")
+    elif args['type'] == 'compatible':
+        # compatible build
+        pack.writestr("assets/minecraft/lang/zh_tw.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
+        # processing pack.mcmeta
+        with open("pack.mcmeta", 'r', encoding='utf8') as meta:
+            metadata = json.load(meta)
+        del metadata['language']
+        pack.writestr("pack.mcmeta", json.dumps(metadata, indent=4, ensure_ascii=False))
     elif args['type'] == 'leaveblank':
         pack.writestr("assets/minecraft/lang/lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
     pack.close()
@@ -35,6 +43,7 @@ def build(args):
 def build_all():
     build({'type': 'normal'})
     build({'type': 'leaveblank'})
+    build({'type':'compatible'})
 
 def get_packname(args):
     base_name = "lzh"
@@ -42,6 +51,8 @@ def get_packname(args):
         pass
     elif args['type'] == 'leaveblank':
         base_name = base_name + "_leaveblank"
+    elif args['type'] == 'compatible':
+        base_name = base_name + "_compatible"
     return base_name + ".zip"
 
 if __name__ == "__main__":
