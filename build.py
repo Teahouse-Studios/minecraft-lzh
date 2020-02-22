@@ -38,6 +38,7 @@ def build(args):
         pack.writestr("pack.mcmeta", json.dumps(metadata, indent=4, ensure_ascii=False))
     elif args['type'] == 'leaveblank':
         pack.writestr("assets/minecraft/lang/lzh.json", json.dumps(lang_data, indent=4, ensure_ascii=True))
+        pack.write("pack.mcmeta")
     pack.close()
 
 def build_all():
