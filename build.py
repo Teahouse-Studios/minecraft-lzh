@@ -46,7 +46,7 @@ def build(args):
 def build_all():
     build({'type': 'normal'})
     build({'type': 'leaveblank'})
-    build({'type':'compatible'})
+    build({'type': 'compatible'})
 
 def get_packname(args):
     base_name = "lzh"
