@@ -722,7 +722,7 @@
   "book.generation.1": "副製",
   "book.generation.2": "再複製",
   "book.generation.3": "敝之",
-  "book.invalid.tag": "",
+  "book.invalid.tag": "*無效書簽*",
   "merchant.deprecated": "",
   "merchant.current_level": "",
   "merchant.next_level": "",
