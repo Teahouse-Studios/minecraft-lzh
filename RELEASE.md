@@ -8,7 +8,7 @@ END Logo & title area
 --><!-- 
 Colla注意！
 在發布更新前請務必在群內告知！大型更新（例：v0.1.0、v0.2.0、v0.3.0等等）只能在週末發布！
-每一個release都有兩個下載連結：一個是Github release，另一個是電量的對象儲存！
+每一個release都有兩個下載連結：一個是Github release，另一個是電量的對象儲存（可在release發布時@電量 提示，若無回應，只留release的連結也可）！
 每個release必須在這裏發布更新紀錄！release必須有完整的更新紀錄！不許有任何一點漏寫！
 展示diff的GfM：
 ```diff
