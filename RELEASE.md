@@ -35,8 +35,8 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 ### 適用版本
 適用Minecraft Java版1.14.4-1.15.2，兼容Minecraft Java版1.13-1.14.3和20w06a-20w08a。
 ### 下載
-* [minecraft-lzh-v0.1.0.zip](cos通道)（[鏡像](github-release通道)）
-* [minecraft-lzh-v0.1.0_xxx.zip](cos通道)（[鏡像](github-release通道)）
+* [lzh-v0.1.0.zip](cos通道)（[鏡像](github-release通道)）
+* [lzh-v0.1.0_xxx.zip](cos通道)（[鏡像](github-release通道)）
 (2) beta（在github原生release中請標示為pre-release）
 ## Beta v0.1.1 Build 1
 一段版本簡介文字
@@ -45,8 +45,8 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 ### 更改
 *
 ### 下載
-* [minecraft-lzh-v0.1.1+beta-bulid-1.zip](cos通道)（[鏡像](github-release通道)）
-* [minecraft-lzh-v0.1.1+beta-build-1_xxx.zip](cos通道)（[鏡像](github-release通道)）
+* [lzh-v0.1.1+beta-bulid-1.zip](cos通道)（[鏡像](github-release通道)）
+* [lzh-v0.1.1+beta-build-1_xxx.zip](cos通道)（[鏡像](github-release通道)）
 ----
 在alpha階段暫加上項目進度。
 -->
@@ -59,5 +59,6 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 ### 適用版本
 適用Minecraft Java版1.14.4-1.15.2，兼容Minecraft Java版1.13-1.14.3和20w06a-20w08a。
 ### 下載
-* minecraft-lzh-v0.1.0+beta-bulid-1.zip（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1）（主線暫不可用）
-* minecraft-lzh-v0.1.0+beta-build-1_xxx.zip（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1）
+* [lzh-v0.1.0+beta-bulid-1.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
+* [lzh-v0.1.0+beta-build-1_compatible.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1_compatible.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
+* [lzh-v0.1.0+beta-build-1_leaveblank.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1_leaveblank.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
