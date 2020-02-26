@@ -22,7 +22,7 @@ END Logo & title area
 我們提供了一個自動構建腳本（正式打包也使用）。
 1. 下載源碼：
 ``` bash
-git clone https://github.com/dianliang/minecraft-lzh.git
+git clone https://github.com/dianliang233/minecraft-lzh.git
 ```
 2. 進入文件夾：
 ``` bash
