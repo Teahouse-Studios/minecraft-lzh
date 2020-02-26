@@ -1,4 +1,4 @@
-<!-- 
+ <!-- 
 START Logo & title area
 --><p align="center">
   <img src="https://mcwiki-1301161188.cos.ap-hongkong.myqcloud.com/github/minecraft-lzh/logo1.png" width="150">
@@ -17,28 +17,47 @@ Colla注意！
 ! 有問題的內容
 # 其他內容
 ```
+版本號格式：
+遵循類Semantic Versioning命名方式。
+簡單來說是MAJOR.MINOR.PATCH+EXTRA
+MAJOR：現階段保持0
+MINOR：新增對Minecraft版本的支持或大量的新翻譯發布
+PATCH：新增翻譯/修復漏洞
+EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapshot
 更新發布格式：
 (1) release
-## Pre-release v0（pre階段專用）.1（大版本號）.0（子版本號）
+## Pre-release v0.1.0
+一段版本簡介文字
+### 新增
+*
+### 更改
+*
+### 適用版本
+適用Minecraft Java版1.14.4-1.15.2，兼容Minecraft Java版1.13-1.14.3和20w06a-20w08a。
+### 下載
+* [minecraft-lzh-v0.1.0.zip](cos通道)（[鏡像](github-release通道)）
+* [minecraft-lzh-v0.1.0_xxx.zip](cos通道)（[鏡像](github-release通道)）
+(2) beta（在github原生release中請標示為pre-release）
+## Beta v0.1.1 Build 1
 一段版本簡介文字
 ### 新增
 *
 ### 更改
 *
 ### 下載
-* [minecraft-lzh-pre-v0.1.0.zip](cos通道)（[鏡像](github-release通道)）
-* [minecraft-lzh-pre-v0.1.0_xxx.zip](cos通道)（[鏡像](github-release通道)）
-(2) snapshot
-## Snapshot v0.1.0.1（beta版本號）
-一段版本簡介文字
-### 新增
-*
-### 更改
-*
-### 下載
-* [minecraft-lzh-snapshot-v0.1.0.1.zip](cos通道)（[鏡像](github-release通道)）
-* [minecraft-lzh-snapshot-v0.1.0.1_xxx.zip](cos通道)（[鏡像](github-release通道)）
+* [minecraft-lzh-v0.1.1+beta-bulid-1.zip](cos通道)（[鏡像](github-release通道)）
+* [minecraft-lzh-v0.1.1+beta-build-1_xxx.zip](cos通道)（[鏡像](github-release通道)）
+----
+在alpha階段暫加上項目進度。
 -->
 
 這裡記載了本資源包的更新紀錄和下載連結。
-## Snapshot v0.1.0.1
+## Beta v0.1.0 Build 1
+問天地何在。
+### 新增
+* 增添了許多翻譯。
+### 適用版本
+適用Minecraft Java版1.14.4-1.15.2，兼容Minecraft Java版1.13-1.14.3和20w06a-20w08a。
+### 下載
+* minecraft-lzh-v0.1.0+beta-bulid-1.zip（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1）（主線暫不可用）
+* minecraft-lzh-v0.1.0+beta-build-1_xxx.zip（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1）
