@@ -49,13 +49,14 @@ python build.py compatible
   * 當您的貢獻足夠多，我們將會邀請您成為Collaborator。
 ### 要求
 >一、正文書繁體，以承古風。常言不為限。  
->二、君子之善，以禮相重。勿廣告、行淫、言辱等不雅之語。
+二、君子之善，以禮相重。勿廣告、行淫、言辱等不雅之語。
 ### 授權
 若您在本項目作出貢獻，即表示您同意將您的貢獻的版權贈予我們的團隊，並允許我們對其進行包括但不限於再分發、商用和對其可使用範圍進行限制。
 ## 協議
 本資源包以GPL v3.0協議授權。<!-- 
 START Copyright area
---><p align="center">版權所有 Minecraft 文言文資源包團隊 · 保留部分權力</p>
+-->
+<p align="center">版權所有 Minecraft 文言文資源包團隊 · 保留部分權力</p>
 <p align="center">Copyright Minecraft-lzh Resourcepack Team · Some rights reserved</p><!-- 
 END Copyright area
 -->
