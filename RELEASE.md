@@ -54,10 +54,16 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 這裡記載了本資源包的更新紀錄和下載連結。
 ## Beta v0.1.0 Build 1
 問天地何在。
-### 新增
+## 新增
 * 增添了許多翻譯。
-### 適用版本
-適用Minecraft Java版1.14.4-1.15.2，兼容Minecraft Java版1.13-1.14.3和20w06a-20w08a。
+## 重新上傳
+本版本被重新上傳以修復在`pack.mcmeta`文件中版本號錯誤的漏洞並增加了20w09a的支援。
+
+沒有被重新上傳的版本可在[此處](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)找到，但需自行打包。
+## 適用版本
+僅適用Minecraft Java版20w09a。（[#12](https://github.com/dianliang233/minecraft-lzh/issues/12)）
+
+沒有被重新上傳的版本可適用于適用Minecraft Java版1.15.2，兼容1.13-1.15.1和20w06a-20w08a。
 ### 下載
 * [lzh-v0.1.0+beta-bulid-1.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
 * [lzh-v0.1.0+beta-build-1_compatible.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1_compatible.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
