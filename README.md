@@ -11,7 +11,7 @@ END Logo & title area
 ## 作用
 這個資源包為Minecraft新增了一個語言：文言文。
 ## 使用
-請在[RELEASE.md](https://github.com/dianliang233/minecraft-lzh/blob/master/README.md)選擇版本下載，像其他資源包一樣復制到你對應的`.minecraft/resourcepacks/`目錄中（[MCBBS上的教程](https://www.mcbbs.net/thread-880869-1-1.html)）（MultiMC或其他分離版本的啟動器請自行查找）。資源包新建了一個語言，安裝啟用後在語言設置中選擇“**文言（華夏）**”即可體驗。
+請在[RELEASE.md](https://github.com/dianliang233/minecraft-lzh/blob/master/README.md)選擇版本下載，像其他資源包一樣復制到你對應的`.minecraft/resourcepacks/`目錄中（[MCBBS上的教程](https://www.mcbbs.net/thread-880869-1-1.html)）（MultiMC、HMCl或其他分離版本的啟動器請自行查找）。資源包新建了一個語言，安裝啟用後在語言設置中選擇“**文言（華夏）**”即可體驗。
 ### 版本差異
 - 無後綴：未翻譯的部分使用英文。
 - `_compatible`：兼容版本。未翻譯的部分使用繁體中文。
