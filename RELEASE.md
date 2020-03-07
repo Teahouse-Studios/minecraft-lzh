@@ -52,6 +52,19 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 -->
 
 這裡記載了本資源包的更新紀錄和下載連結。
+## Beta v0.1.0 Build 2
+## 新增
+* 增添了一點點翻譯。
+## 修復
+* [#12](https://github.com/dianliang233/minecraft-lzh/issues/12) - 資源包僅適用Java版20w09a。
+## 適用版本
+支援Minecraft Java版1.15.2，兼容1.13-1.15.1和20w09a。
+## 下載
+* [lzh-v0.1.0+beta-bulid-1.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
+* [lzh-v0.1.0+beta-build-1_compatible.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2_compatible.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
+* [lzh-v0.1.0+beta-build-1_leaveblank.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2_leaveblank.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
+
+
 ## Beta v0.1.0 Build 1
 問天地何在。
 ## 新增
@@ -64,7 +77,7 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 僅適用Minecraft Java版20w09a。（[#12](https://github.com/dianliang233/minecraft-lzh/issues/12)）
 
 沒有被重新上傳的版本可適用于適用Minecraft Java版1.15.2，兼容1.13-1.15.1和20w06a-20w08a。
-### 下載
+## 下載
 * [lzh-v0.1.0+beta-bulid-1.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
 * [lzh-v0.1.0+beta-build-1_compatible.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1_compatible.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
 * [lzh-v0.1.0+beta-build-1_leaveblank.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-1/lzh-v0.1.0%2Bbeta-bulid-1_leaveblank.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-1)）
