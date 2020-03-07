@@ -60,9 +60,9 @@ EXTRA：只允許包含ASCII數字、小寫字母和-號。例：+rc1、+snapsho
 ## 適用版本
 支援Minecraft Java版1.15.2，兼容1.13-1.15.1和20w09a。
 ## 下載
-* [lzh-v0.1.0+beta-bulid-1.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
-* [lzh-v0.1.0+beta-build-1_compatible.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2_compatible.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
-* [lzh-v0.1.0+beta-build-1_leaveblank.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2_leaveblank.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
+* [lzh-v0.1.0+beta-bulid-2.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
+* [lzh-v0.1.0+beta-build-2_compatible.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2_compatible.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
+* [lzh-v0.1.0+beta-build-2_leaveblank.zip](https://dianliang-oss-1301161188.cos.ap-shanghai.myqcloud.com/lzh/v0.1.0/build-2/lzh-v0.1.0%2Bbeta-bulid-2_leaveblank.zip)（[鏡像](https://github.com/dianliang233/minecraft-lzh/releases/tag/v0.1.0%2Bbeta-build-2)）
 
 
 ## Beta v0.1.0 Build 1
