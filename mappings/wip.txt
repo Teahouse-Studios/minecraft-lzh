@@ -1,0 +1,13 @@
+{
+    "todo": [
+        "entity",     # maybe not a lot 
+        "item",       # need a massive amount of remapping
+        "build.py"    # implement a log system; support reading mappings
+    ],
+    "wontdo": [
+        "commands"    # diff is too large
+    ],
+    "notes": {
+        "format": {"key_legacy":"key_new"}
+    }
+}
