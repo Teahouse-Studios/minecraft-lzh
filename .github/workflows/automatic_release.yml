@@ -29,3 +29,4 @@ jobs:
             lzh.zip
             lzh_leaveblank.zip
             lzh_compatible.zip
+            lzh_compatible_legacy.zip
