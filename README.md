@@ -16,6 +16,7 @@ END Logo & title area
 - 無後綴：未翻譯的部分使用英文。
 - `_compatible`：兼容版本（避免 Mod 漢化失效）。未翻譯的部分使用繁體中文。
 - `_leaveblank`：留空版本。未翻譯的部分留空。
+- `_legacy`：舊版本。用於1.12.2及以下。
 
 請根據需求選擇下載。在目前仍處於早期階段的情況下，我們推薦您使用兼容版本。
 ### 自行打包
@@ -32,7 +33,7 @@ cd minecraft-lzh
 ``` bash
 python build.py all
 ```
-在文件夾中會出現`lzh.zip`、`lzh_compatible.zip`和`lzh_leaveblank.zip`四個資源包，名稱和作用如上所述。
+在文件夾中會出現`lzh.zip`、`lzh_compatible.zip`、`lzh_leaveblank.zip`和`lzh_compatible_legacy.zip`四個資源包，名稱和作用如上所述。
 
 如果只需要常規的資源包，運行：
 ``` bash
