@@ -30,7 +30,7 @@ def main():
         build_all()
     else:
         build(args)
-    print("\n[INFO] Built " + str(pack_counter) + " pack(s), with " + str(successful_pack_counter) + " pack(s) no warning")
+    print("\n[INFO] Built %d pack(s), with %d pack(s) no warning" % (pack_counter, successful_pack_counter))
 
 def build(args):
     global pack_counter
@@ -67,7 +67,7 @@ def build(args):
         for file in mappings:
             file_name = file + ".json"
             if file_name not in os.listdir("mappings"):
-                print("\033[33m[WARN] Missing mapping: " + file_name + ", Skipping\033[0m")
+                print("\033[33m[WARN] Missing mapping: %s, Skipping\033[0m" % (file_name))
                 warning_counter += 1
                 pass
             else:
@@ -76,7 +76,7 @@ def build(args):
                     mapping = json.load(f)
                 for k,v in mapping.items():
                     if (k not in mapping.keys()) or (v not in lang_data.keys()):
-                        print("\033[33m[WARN] " + "Corrupted key-value pair in file " + file_name + ": " + "{\"" + k + "\": \"" + v + "\"}\033[0m" )
+                        print("\033[33m[WARN] " + "Corrupted key-value pair in file %s: {\"%s\": \"%s\"}\033[0m" % (file_name, k, v))
                         warning_counter += 1
                         pass
                     else:
@@ -89,7 +89,7 @@ def build(args):
         metadata['pack'].update({"pack_format": 3})
     pack.writestr("pack.mcmeta", json.dumps(metadata, indent=4, ensure_ascii=False))
     pack.close()
-    print("[INFO] Built pack " + pack_name + " with " + str(warning_counter) + " warning(s)")
+    print("[INFO] Built pack %s with %d warning(s)" % (pack_name, warning_counter))
     if warning_counter == 0:
         successful_pack_counter += 1
     else:
