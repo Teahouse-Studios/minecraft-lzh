@@ -1,0 +1,5 @@
+- name: HOME
+  url: /
+  icon: home
+- name: navSearch
+  switch: true
