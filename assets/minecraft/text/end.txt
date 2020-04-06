@@ -18,7 +18,7 @@
 
 §2為此玩家之夢？
 
-§3This player dreamed of sunlight and trees. Of fire and water. It dreamed it created. And it dreamed it destroyed. It dreamed it hunted, and was hunted. It dreamed of shelter.
+§3陽光樹木，水火交融。夢以創造，亦以毀滅。夢以狩獵，亦以獵之。一所護其。
 
 §2Hah, the original interface. A million years old, and it still works. But what true structure did this player create, in the reality behind the screen?
 
@@ -120,9 +120,9 @@
 
 §2and sometimes the player believed the universe had spoken to it through the zeros and ones, through the electricity of the world, through the scrolling words on a screen at the end of a dream
 
-§3and the universe said I love you
+§3宇宙言君：吾之愛，君也。
 
-§2and the universe said you have played the game well
+§2宇宙言君：君戲佳矣。
 
 §3and the universe said everything you need is within you
 
