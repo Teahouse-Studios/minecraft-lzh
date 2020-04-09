@@ -173,7 +173,7 @@
   "createWorld.customize.custom.confirm1": "此將替現君之設而不復",
   "createWorld.customize.custom.confirm2": "還！",
   "createWorld.customize.custom.confirmTitle": "警！",
-  "createWorld.customize.custom.mainNoiseScaleX": "",
+  "createWorld.customize.custom.mainNoiseScaleX": "地形",
   "createWorld.customize.custom.mainNoiseScaleY": "",
   "createWorld.customize.custom.mainNoiseScaleZ": "",
   "createWorld.customize.custom.depthNoiseScaleX": "",
