@@ -38,7 +38,7 @@
   "gui.recipebook.toggleRecipes.blastable": "",
   "gui.recipebook.toggleRecipes.smokable": "",
   "gui.narrate.button": "%s 按鈕",
-  "gui.narrate.slider": "%s 滑凷",
+  "gui.narrate.slider": "%s 滑塊",
   "gui.narrate.editBox": "%s 編輯框：%s",
   "translation.test.none": "問天地好在",
   "translation.test.complex": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!",
