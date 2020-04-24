@@ -4687,8 +4687,8 @@
   "gamerule.category.chat": "語",
   "gamerule.category.spawning": "生",
   "gamerule.category.updates": "易",
-  "gamerule.category.drops": "",
-  "gamerule.category.mobs": "",
-  "gamerule.category.player": "",
-  "gamerule.category.misc": ""
+  "gamerule.category.drops": "落",
+  "gamerule.category.mobs": "靈",
+  "gamerule.category.player": "遊者",
+  "gamerule.category.misc": "雜"
 }
