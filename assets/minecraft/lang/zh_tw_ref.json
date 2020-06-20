@@ -3751,7 +3751,7 @@
   "options.key.hold": "按住",
   "options.key.toggle": "切換",
   "options.language": "語言...",
-  "options.languageWarning": "語言翻譯並不一定%%精確",
+  "options.languageWarning": "語言翻譯並不一定100%%精確",
   "options.mainHand": "慣用手",
   "options.mainHand.left": "左",
   "options.mainHand.right": "右",
