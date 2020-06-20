@@ -1,0 +1,3 @@
+files:
+  - source: /assets/minecraft/lang/zh_tw_ref.json
+    translation: /assets/minecraft/lang/%two_letters_code%.json
