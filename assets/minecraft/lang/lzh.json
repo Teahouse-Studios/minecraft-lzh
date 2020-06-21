@@ -4724,7 +4724,7 @@
   "team.visibility.hideForOwnTeam": "隱藏我方隊伍",
   "team.visibility.never": "永不顯示",
   "title.multiplayer.disabled": "多人遊戲已停用，請檢查您的啟動器設定。",
-  "title.multiplayer.lan": "眾戲（局域網）",
+  "title.multiplayer.lan": "眾戲（區網）",
   "title.multiplayer.other": "眾戲（第三方）",
   "title.multiplayer.realms": "眾戲（Realms）",
   "title.oldgl.deprecation.line1": "偵測到老舊顯示卡， 這可能會使您無法",
