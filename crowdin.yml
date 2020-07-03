@@ -1,5 +1,5 @@
 files:
   - source: /assets/minecraft/lang/zh_tw_ref.json
     translation: /assets/minecraft/lang/%two_letters_code%.json
-  - source: /assets/minecraft/text/end_ref.txt
-    translation: /assets/minecraft/text/%osx_locale%.txt
+  - source: /assets/minecraft/texts/end_ref.txt
+    translation: /assets/minecraft/texts/%osx_locale%.txt
