@@ -22,7 +22,7 @@
   "advMode.notAllowed": "須眾戯之掌者之創也",
   "advMode.notEnabled": "是伺服器禁命令凷",
   "advMode.previousOutput": "前之輸出",
-  "advMode.randomPlayer": "任意取一戲者，指以「@r」",
+  "advMode.randomPlayer": "應機取一戲者，指以「@r」",
   "advMode.self": "執行實體，指以「@s」",
   "advMode.setCommand": "設是命令凷之命令",
   "advMode.setCommand.success": "凷內命令，設以%s",
