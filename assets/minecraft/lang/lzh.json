@@ -8,7 +8,7 @@
   "addServer.resourcePack.enabled": "用",
   "addServer.resourcePack.prompt": "詢",
   "addServer.title": "更伺服器之訊息",
-  "advMode.allEntities": "實體者，悉指以「@e」",
+  "advMode.allEntities": "實體，悉指以「@e」",
   "advMode.allPlayers": "戲者，悉指以「@a」",
   "advMode.command": "控制台命令",
   "advMode.mode.auto": "複",
