@@ -196,7 +196,7 @@
   "argument.block.property.duplicate": "凷%2$s之品%1$s不應複設",
   "argument.block.property.invalid": "不可以%2$s爲凷%1$s之品%3$s",
   "argument.block.property.novalue": "凷%2$s之品%1$s應爲數值",
-  "argument.block.property.unclosed": "凷之態應作結以「]」",
+  "argument.block.property.unclosed": "凷之態應終以「]」",
   "argument.block.property.unknown": "凷%s無品「%s」",
   "argument.block.tag.disallowed": "這裡無法使用標籤， 只能用於實際方塊",
   "argument.color.invalid": "是色未知：%s",
