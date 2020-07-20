@@ -1966,7 +1966,7 @@
   "commands.debug.alreadyRunning": "除錯分析器已在執行中",
   "commands.debug.notRunning": "除錯分析器未啟動",
   "commands.debug.reportFailed": "訂正報告不可存",
-  "commands.debug.reportSaved": "訂正報告存之以%s",
+  "commands.debug.reportSaved": "訂正報告存之于%s",
   "commands.debug.started": "訂正器啓矣",
   "commands.debug.stopped": "訂正器終矣，總耗時%s秒與%s刻（%s刻每秒）",
   "commands.defaultgamemode.success": "默認之法，更之以%s",
