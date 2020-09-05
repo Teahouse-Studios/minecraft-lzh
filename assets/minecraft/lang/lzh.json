@@ -4762,12 +4762,12 @@
     "tutorial.craft_planks.title": "合成木材",
     "tutorial.find_tree.description": "揍它來採集木頭",
     "tutorial.find_tree.title": "尋找一棵樹",
-    "tutorial.look.description": "使用您的滑鼠來轉向",
+    "tutorial.look.description": "轉向以滑鼠",
     "tutorial.look.title": "環顧四周",
-    "tutorial.move.description": "用 %s 來跳躍",
-    "tutorial.move.title": "用 %s、%s、%s 和 %s 來移動",
+    "tutorial.move.description": "躍以 %s",
+    "tutorial.move.title": "移以%s、%s、%s、%s",
     "tutorial.open_inventory.description": "按 %s",
-    "tutorial.open_inventory.title": "開啟您的物品欄",
-    "tutorial.punch_tree.description": "按住 %s",
+    "tutorial.open_inventory.title": "解囊",
+    "tutorial.punch_tree.description": "長按 %s",
     "tutorial.punch_tree.title": "伐樹"
 }
