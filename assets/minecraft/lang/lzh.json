@@ -246,7 +246,7 @@
     "argument.entity.selector.not_allowed": "選擇器無法使用",
     "argument.entity.selector.randomPlayer": "無定戲者",
     "argument.entity.selector.self": "目前實體",
-    "argument.entity.selector.unknown": "未知的選擇器類型 '%s'",
+    "argument.entity.selector.unknown": "是選擇器類型未知：「%s」",
     "argument.entity.toomany": "僅接受單一實體， 但提供的選擇器允許不只一個實體",
     "argument.float.big": "單精度浮點數不能多於 %s，但找到的是 %s",
     "argument.float.low": "單精度浮點數不能少於 %s，但找到的是 %s",
@@ -4769,5 +4769,5 @@
     "tutorial.open_inventory.description": "按 %s",
     "tutorial.open_inventory.title": "開啟您的物品欄",
     "tutorial.punch_tree.description": "按住 %s",
-    "tutorial.punch_tree.title": "摧毀這棵樹"
+    "tutorial.punch_tree.title": "伐樹"
 }
