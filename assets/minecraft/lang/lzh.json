@@ -222,7 +222,7 @@
     "argument.entity.options.limit.toosmall": "限制必須至少為 1",
     "argument.entity.options.mode.invalid": "是法未知：「%s」",
     "argument.entity.options.name.description": "實體名",
-    "argument.entity.options.nbt.description": "實體擁有 NBT",
+    "argument.entity.options.nbt.description": "實體二進位命名標籤",
     "argument.entity.options.predicate.description": "自定義述詞",
     "argument.entity.options.scores.description": "實體擁有分數",
     "argument.entity.options.sort.description": "對實體進行排序",
