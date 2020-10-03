@@ -11,22 +11,18 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
-      - uses: actions/setup-python@v1
+      - name: Setup python
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x'
           architecture: 'x64'
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: "Build"
+      - name: Build
         run: |
-          python build.py all
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: true
-          draft: false
-          files: |
-            lzh.zip
-            lzh_leaveblank.zip
-            lzh_compatible.zip
-            lzh_compatible_legacy.zip
+          python preset_build.py
+      - name: Upload release assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          hub release create $(find ./builds -type f -name "*.zip" -printf "-a %p ") -m "${GITHUB_REF##*/}" "${GITHUB_REF##*/}"
