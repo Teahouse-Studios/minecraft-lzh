@@ -9,7 +9,7 @@ if __name__ == '__main__':
         {'type': 'normal', 'leaveblank': False, 'output': 'builds', 'format': 6}
     ]
     preset_name = [
-        "lzh_compat.zip",
+        "lzh_compatible.zip",
         "lzh_legacy.zip",
         "lzh_leaveblank.zip",
         "lzh.zip"

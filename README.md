@@ -26,7 +26,7 @@
 1. 下載源碼：
 
 ``` bash
-git clone https://github.com/dianliang233/minecraft-lzh.git
+git clone https://github.com/Teahouse-Studios/minecraft-lzh.git
 ```
 
 2. 進入文件夾：
@@ -38,10 +38,10 @@ cd minecraft-lzh
 3. 運行Python命令：
 
 ``` bash
-python build.py all
+python preset_build.py
 ```
 
-在文件夾中會出現 `lzh.zip` 、 `lzh_compatible.zip` 、 `lzh_leaveblank.zip` 和 `lzh_compatible_legacy.zip` 四個資源包，名稱和作用如上所述。
+在文件夾中會出現 `lzh.zip` 、 `lzh_compatible.zip` 、 `lzh_leaveblank.zip` 和 `lzh_legacy.zip` 四個資源包，名稱和作用如上所述。
 
 如果只需要常規的資源包，運行：
 
@@ -53,6 +53,12 @@ python build.py normal
 
 ``` bash
 python build.py compatible
+```
+
+更詳細的用法請運行：
+
+``` bash
+python build.py -h
 ```
 
 ## 貢獻

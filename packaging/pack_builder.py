@@ -155,6 +155,7 @@ class pack_builder(object):
     def __get_language_content(self):
         content = load(open(os.path.join(self.main_resource_path,
                                          "assets/minecraft/lang/lzh.json"), 'r', encoding='utf8'))
+        # doubt whether this is really used
         if not self.args['leaveblank']:
             content = {k: v for k, v in content.items() if v}
         return content

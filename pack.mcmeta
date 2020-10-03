@@ -1,7 +1,7 @@
 {
     "pack": { 
-        "pack_format": 5,
-        "description": "Minecraft文言文语言包\n§3Beta v0.1.0 build 4"
+        "pack_format": 6,
+        "description": "Minecraft文言文语言包\n§3Beta v0.2.0"
     },
     "language": {
         "lzh": {
@@ -9,5 +9,17 @@
             "region": "華夏",
             "bidirectional": "false"
         }
-    }
+    },
+    "author": [
+        "Dianliang233",
+        "Lakejason0",
+        "MineCreeper86",
+        "MysticNebula70",
+        "HLDoramon",
+        "MiemieMethod",
+        "Zhen_R_ZYT",
+        "Hatsuki kiri"
+    ],
+    "home": "https://github.com/Teahouse-Studios/minecraft-lzh",
+    "copyright": "This is Classical Chinese Resource Pack, a Teahouse Studios' Production. You may use, share and remix the pack under GNU General Public License version 3. For the license's text, see LICENSE file in the pack. For further information, visit github.com/Teahouse-Studios.\n这里是文言文中文资源包，由茶馆工作室出品。您可以在遵守 GNU通用公共许可证 版本3 协议的前提下使用、分享和演绎该资源包。关于协议文本，详见本资源包根目录下的LICENSE文件。更多信息详见 github.com/Teahouse-Studios。Github的拼写是G-I-T-H-U-B，Teahouse的拼写是T-E-A-H-O-U-S-E，Studios的拼写是S-T-U-D-I-O-S。"
 }
