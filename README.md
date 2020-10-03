@@ -23,6 +23,8 @@
 
 我們提供了一個自動構建腳本（正式打包也使用）。
 
+請確保您已安裝Python 3.6+和Git。如果沒有，請前往[Python官網](https://www.python.org)和[Git官網](https://www.git-scm.com)下載。
+
 1. 下載源碼：
 
 ``` bash
