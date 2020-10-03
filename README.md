@@ -41,7 +41,7 @@ cd minecraft-lzh
 python preset_build.py
 ```
 
-在文件夾中會出現 `lzh.zip` 、 `lzh_compatible.zip` 、 `lzh_leaveblank.zip` 和 `lzh_legacy.zip` 四個資源包，名稱和作用如上所述。
+在 `builds` 文件夾中會出現 `lzh.zip` 、 `lzh_compatible.zip` 、 `lzh_leaveblank.zip` 和 `lzh_legacy.zip` 四個資源包，名稱和作用如上所述。
 
 如果只需要常規的資源包，運行：
 
@@ -52,7 +52,7 @@ python build.py normal
 如果只需要加載兼容版本的資源包，運行：
 
 ``` bash
-python build.py compatible
+python build.py compat
 ```
 
 更詳細的用法請運行：
