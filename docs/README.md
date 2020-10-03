@@ -1,1 +1,0 @@
-请到[这里](https://github.com/dianliang233/mc-lzh-web)继续编辑网站内容。
