@@ -17,8 +17,9 @@ if __name__ == '__main__':
     pack_counter = 0
     perfect_pack_counter = 0
     base_folder = "builds"
-    for file in os.listdir(base_folder):
-        os.remove(os.path.join(base_folder, file))
+    if os.path.exists(base_folder) and os.path.isdir(base_folder):
+        for file in os.listdir(base_folder):
+            os.remove(os.path.join(base_folder, file))
     for args, name in zip(preset_args, preset_name):
         info, warning_count, error_count = build.build(args)
         if error_count == 0:
