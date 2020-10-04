@@ -2492,7 +2492,7 @@
     "debug.copy_location.message": "將位置複製到剪貼簿",
     "debug.crash.message": "已按住 F3 + C。若未放開按鍵將使遊戲崩潰。",
     "debug.crash.warning": "遊戲崩潰倒數 %s...",
-    "debug.creative_spectator.error": "無法切換遊戲模式；需要權限",
+    "debug.creative_spectator.error": "法不可更；需權",
     "debug.creative_spectator.help": "F3 + N = 循環切換 先前的遊戲模式 <-> 旁觀者模式",
     "debug.cycle_renderdistance.help": "F3 + F = 在不同顯示距離中循環（按 Shift 鍵反向循環）",
     "debug.cycle_renderdistance.message": "渲染距離： %s",
