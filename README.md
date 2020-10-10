@@ -8,7 +8,7 @@
 
 ## 使用
 
-請在[release頁面](https://github.com/dianliang233/minecraft-lzh/releases)選擇版本下載，像其他資源包一樣復制到你對應的 `.minecraft/resourcepacks/` 目錄中（[MCBBS上的教程](https://www.mcbbs.net/thread-880869-1-1.html)）（MultiMC、HMCl或其他分離版本的啟動器請自行查找）。資源包新建了一個語言，安裝啟用後在語言設置中選擇“**文言（華夏）**”即可體驗。
+請在[release頁面](https://github.com/Teahouse-Studios/minecraft-lzh/releases)選擇版本下載，像其他資源包一樣復制到你對應的 `.minecraft/resourcepacks/` 目錄中（[MCBBS上的教程](https://www.mcbbs.net/thread-880869-1-1.html)）（MultiMC、HMCL或其他分離版本的啟動器請自行查找）。資源包新建了一個語言，安裝啟用後在語言設置中選擇“**文言（華夏）**”即可體驗。
 
 ### 版本差異
 
@@ -65,11 +65,10 @@ python build.py -h
 
 ## 貢獻
 
-您有幾種方法對此項目進行貢獻：
+我們歡迎你為這個資源包貢獻自己的想法。您有幾種方法對此項目進行貢獻：
 
-* 大部分翻譯需要標準譯名，列表[見此](https://minecraft-zh.gamepedia.com/User:Miemie_method)。
-* 修改這個Repoistory，並提出Pull Request。
-  * 當您的貢獻足夠多，我們將會邀請您成為Collaborator。
+* 提出一個issue。
+* 直接修改内容，並提出Pull Request。
 
 ### 要求
 
@@ -82,12 +81,14 @@ python build.py -h
 
 ## 協議
 
-本資源包以GPL v3.0協議授權。
-
 茶館工作室出品
+
+本資源包以GPL v3協議授權。
 
 版權所有© Minecraft 文言文資源包團隊。保留部分權力。Minecraft 文言文資源包團隊隸屬於茶館工作室。
 
-A Teahouse Studios Work
+A Teahouse Studios Production
 
-Copyright Minecraft-lzh Resourcepack Team. Some rights reserved. Minecraft-lzh Rresourcepack Team is affiliated to Teahouse Studios.
+This resourcepack is licensed under GNU General Public License, version 3.
+
+Copyright Minecraft-lzh Resourcepack Team. Some rights reserved. Minecraft-lzh Resourcepack Team is affiliated to Teahouse Studios.
