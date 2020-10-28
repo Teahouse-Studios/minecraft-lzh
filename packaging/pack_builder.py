@@ -1,5 +1,6 @@
 import os
 from json import load, dumps
+from os.path import join
 from sys import stderr
 from zipfile import ZipFile, ZIP_DEFLATED
 
@@ -10,13 +11,14 @@ from zipfile import ZipFile, ZIP_DEFLATED
 class pack_builder(object):
     '''Build packs.'''
 
-    def __init__(self, main_res_path: str):
+    def __init__(self, main_res_path: str, legacy_mapping_path: str):
         self.__args = {}
         self.__warning = 0
-        self.__error = 0
+        self.__error = False
         self.__log_list = []
         self.__filename = ""
         self.__main_res_path = main_res_path
+        self.__legacy_mapping_path = legacy_mapping_path
 
     @property
     def args(self):
@@ -31,7 +33,7 @@ class pack_builder(object):
         return self.__warning
 
     @property
-    def error_count(self):
+    def error(self):
         return self.__error
 
     @property
@@ -43,12 +45,16 @@ class pack_builder(object):
         return self.__main_res_path
 
     @property
-    def logs(self):
-        return self.__log_list and '\n'.join(self.__log_list) or "Did not build any pack."
+    def legacy_mapping_path(self):
+        return self.__legacy_mapping_path
+
+    @property
+    def log_list(self):
+        return self.__log_list
 
     def clean_status(self):
         self.__warning = 0
-        self.__error = 0
+        self.__error = False
         self.__log_list = []
         self.__filename = ""
 
@@ -66,7 +72,7 @@ class pack_builder(object):
             # realms_lang_data = load(open(os.path.join(
             #    self.main_resource_path, "assets/realms/lang/lzh.json"), 'r', encoding='utf8'))
             # process pack name
-            pack_name = "lzh.zip"
+            pack_name = "minecraft-lzh.zip"
             self.__filename = pack_name
             # process mcmeta
             mcmeta = self.__process_meta(args)
@@ -88,7 +94,8 @@ class pack_builder(object):
             # no pack.png yet
             # pack.write(os.path.join(self.main_resource_path,
             #                        "pack.png"), arcname="pack.png")
-            pack.writestr("LICENSE", self.__handle_license())
+            pack.write(join(self.main_resource_path,
+                            "LICENSE"), arcname="LICENSE")
             pack.writestr("pack.mcmeta", dumps(
                 mcmeta, indent=4, ensure_ascii=False))
             # dump lang file into pack
@@ -118,7 +125,7 @@ class pack_builder(object):
         print("\033[1;31mTerminate building because an error occurred.\033[0m")
         self.__log_list.append(f'Error: {error}')
         self.__log_list.append("Terminate building because an error occurred.")
-        self.__error += 1
+        self.__error = True
 
     def __check_args(self):
         args = self.args
@@ -162,8 +169,8 @@ class pack_builder(object):
 
     def __generate_legacy_content(self, content: dict) -> str:
         # get mappings list
-        mappings = load(open(os.path.join(self.main_resource_path,
-                                          "mappings", "all_mappings"), 'r', encoding='utf8'))
+        mappings = load(open(os.path.join(self.legacy_mapping_path,
+                                          "all_mappings"), 'r', encoding='utf8'))
         legacy_lang_data = {}
         for item in mappings:
             mapping_file = f"{item}.json"
@@ -180,7 +187,3 @@ class pack_builder(object):
                     else:
                         legacy_lang_data[k] = content[v]
         return ''.join(f'{k}={v}\n' for k, v in legacy_lang_data.items())
-
-    def __handle_license(self):
-        return ''.join(item[1] for item in enumerate(
-            open(os.path.join(self.main_resource_path, "LICENSE"), 'r', encoding='utf8')))

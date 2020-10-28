@@ -1,17 +1,21 @@
-import os
-from argparse import ArgumentParser
+from os.path import join, dirname
 from packaging.pack_builder import pack_builder
 
 
 def build(args):
-    print(os.getcwd())
-    builder = pack_builder(os.getcwd())
+    current_dir = dirname(__file__)
+    builder = pack_builder(
+        join(current_dir, "minecraft-lzh"), join(current_dir, "mappings"))
     builder.args = args
     builder.build()
-    return builder.logs, builder.warning_count, builder.error_count
+    return builder.filename, builder.warning_count, builder.error, builder.log_list
 
 
 if __name__ == '__main__':
+    from argparse import ArgumentParser
+    from os import listdir, remove, curdir
+    from os.path import exists, isdir
+
     def generate_parser():
         parser = ArgumentParser(description="Automatic build resourcepacks")
         parser.add_argument('type', default='normal', choices=('normal', 'compat', 'legacy'),
@@ -25,8 +29,10 @@ if __name__ == '__main__':
         return parser
     args = vars(generate_parser().parse_args())
     if args['type'] == 'clean':
-        for i in os.listdir('builds/'):
-            os.remove(os.path.join('builds', i))
-        print("\nDeleted all packs built.")
+        target = join(curdir, args['output'])
+        if exists(target) and isdir(target):
+            for i in listdir(target):
+                remove(join(target, i))
+        print(f"Cleaned up {target}.")
     else:
         build(args)
