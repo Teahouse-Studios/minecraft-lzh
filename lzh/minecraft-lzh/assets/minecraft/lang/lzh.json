@@ -2006,7 +2006,7 @@
     "commands.execute.conditional.fail_count": "測試失敗，總計： %s",
     "commands.execute.conditional.pass": "測試通過",
     "commands.execute.conditional.pass_count": "測試通過，總計： %s",
-    "commands.experience.add.levels.success.multiple": "遺%s之等於%s位玩家已成",
+    "commands.experience.add.levels.success.multiple": "遺%2$s之等於%1$s戲者已成",
     "commands.experience.add.levels.success.single": "遺%s之等於玩家%s已成",
     "commands.experience.add.points.success.multiple": "遺%s之經驗於%s位玩家已成",
     "commands.experience.add.points.success.single": "遺%s之經驗於玩家%s已成",
