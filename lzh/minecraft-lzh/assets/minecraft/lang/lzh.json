@@ -212,7 +212,7 @@
     "argument.entity.notfound.player": "戲者無所獲",
     "argument.entity.options.advancements.description": "玩家擁有進度",
     "argument.entity.options.distance.description": "去實體之距",
-    "argument.entity.options.distance.negative": "距離不能為負數",
+    "argument.entity.options.distance.negative": "距不得負",
     "argument.entity.options.dx.description": "實體之處 x 與 x + dx 之間",
     "argument.entity.options.dy.description": "實體之處 y 與 y + dy 之間",
     "argument.entity.options.dz.description": "實體之處 z 與 z + dz 之間",
