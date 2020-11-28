@@ -307,7 +307,7 @@
     "attribute.modifier.take.0": "-%s %s",
     "attribute.modifier.take.1": "-%s%% %s",
     "attribute.modifier.take.2": "-%s%% %s",
-    "attribute.name.generic.armor": "盔甲",
+    "attribute.name.generic.armor": "甲",
     "attribute.name.generic.armor_toughness": "盔甲強度",
     "attribute.name.generic.attack_damage": "攻擊傷害",
     "attribute.name.generic.attack_knockback": "擊退",
