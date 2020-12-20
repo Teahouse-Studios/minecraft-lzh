@@ -1,7 +1,7 @@
 {
     "addServer.add": "畢",
-    "addServer.enterIp": "伺服器之址",
-    "addServer.enterName": "伺服器之名",
+    "addServer.enterIp": "伺服之址",
+    "addServer.enterName": "伺服之名",
     "addServer.hideAddress": "隱址",
     "addServer.resourcePack": "伺服器資源包",
     "addServer.resourcePack.disabled": "棄",
