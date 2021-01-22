@@ -4,7 +4,7 @@ if __name__ == '__main__':
     import os
     from sys import exit
 
-    pack_version = '0.2.1'
+    pack_version = '0.3.0'
     build_unsuccessful = 0
 
     def check_version_consistency():
