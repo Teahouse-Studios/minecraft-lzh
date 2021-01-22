@@ -1,3 +1,7 @@
+# 重要通知
+文言文將被直接添加至Minecraft中，本項目的翻譯將直接轉移至官方文言文項目。本倉庫和Crowdin已棄用。
+
+-----
 # Minecraft 文言文資源包
 
 ![logo](https://mcwiki-1301161188.cos.ap-hongkong.myqcloud.com/github/minecraft-lzh/logo1.png)
